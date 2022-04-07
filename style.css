@@ -102,6 +102,63 @@ p{
     text-decoration: none;
     align-self: flex-start;
 }
+.middle-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 100px;
+}
+
+.information-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color:#1F2937;
+    padding:30px;
+}
+
+.image-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex: auto;
+    width: 200px;
+    
+
+}
+
+
+.image-container{
+    width: 200px;
+}
+
+.middle-image{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.middle-text{
+    font-size: 16px;
+    color: #1F2937;
+    width: 200px;
+}
 
 .footer{
     background-color: #1F2937;
